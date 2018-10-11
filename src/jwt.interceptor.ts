@@ -5,7 +5,7 @@ import {
   HttpEvent,
   HttpInterceptor
 } from '@angular/common/http';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 import { JwtHelperService } from './jwthelper.service';
 import { JWT_OPTIONS } from './jwtoptions.token';
 
